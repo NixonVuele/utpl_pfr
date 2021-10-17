@@ -53,7 +53,7 @@ object miPrimerPrograma extends App {
 
   1.- Funcion factorial 5 = 120
   2.- Funcion fibonacci 5 ultimo valor
-  3.- FUncion que permita determinar si un nùmero primo o no
+  3.- Funcion que permita determinar si un nùmero primo o no
 
 
 }
