@@ -22,9 +22,11 @@ object Tarea1 extends App {
 
   //3.- Funcion que permita determinar si un nùmero es primo o no
   def buscarPrimo(contador: Int, numberCompare: Int): String = {
+    if (numberCompare == 1)
+      return "no es primo"
     if ((numberCompare / 2) < contador)
       return "es primo"
-    else if ((numberCompare % contador) == 0)
+    else if (((numberCompare % contador) == 0))
       return "no es primo"
     else
       return buscarPrimo(contador + 1, numberCompare)
